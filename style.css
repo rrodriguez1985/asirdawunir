@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "tebeo";
+    src: url(font/marvel.ttf);
+}
+body{
+    background-color:brown ;
+    text-align: center;
+}
+h1{
+    font-size: 48px;
+    color:aliceblue;
+    font-family: "tebeo";
+}
+table{
+    margin:auto;
+    border: 1px solid black;
+    width:770px;
+    height:440px;
+}
+td{
+    border:1px solid black;
+    width:100px;
+    height:100px;
+    font-family: "tebeo";
+}
+.imagen{
+    width: 100%;
+    height: 100%;
+}
+.fondo{
+    background-color: lightseagreen;
+    font-size:22px;
+    color:whitesmoke
+}
+.texto{
+    background-color: crimson;
+    font-size: 42px;
+}
+#relleno{
+    background-color: goldenrod;
+}
