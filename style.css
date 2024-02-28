@@ -3,17 +3,23 @@
     src: url(font/marvel.ttf);
 }
 body{
-    background-color:brown ;
-    text-align: center;
+    /* background-color:brown ;*/
+    text-align: center; 
+    background-image:url(logos/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:100% 100%;
+    background-attachment: fixed;
+
 }
 h1{
     font-size: 48px;
     color:aliceblue;
     font-family: "tebeo";
 }
-table{
+table, form{
     margin:auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width:770px;
     height:440px;
 }
@@ -38,4 +44,20 @@ td{
 }
 #relleno{
     background-color: goldenrod;
+}
+#formulario{
+    height:467px;
+    color:whitesmoke;
+    font-family: "tebeo";
+    background-color: brown;
+    border-radius: 5px;
+}
+fieldset{
+    border-radius: 5px;
+}
+.vengadores{
+    /* border-width:4px; */
+    border-style: solid;
+    border-color:blue red green yellow;
+    border-radius: 180%;
 }

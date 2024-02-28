@@ -42,5 +42,49 @@
                 <td  id="relleno" colspan="2"><img class="imagen" src="logos/stanlee.jpg" alt=""></td>
             </tr>
         </table>
+        <br>
+        <br>
+        <form action="basededatos.php" method="post" name="formulario" id="formulario">
+            <fieldset>
+                <legend>Ficha Cliente</legend>
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    Nombre: <input type="text" name="nombre" id="caja" placeholder="Eje.Raul" required>
+                    <br>
+                    Apellidos: <input type="text" name="apellido" id="caja" placeholder="Eje: Rodriguez" required>
+                    <br>
+                    Edad: <input type="number" name="edad" id="caja" min="18" max="90">
+                    <br>
+                    Fecha Nacimiento: <input type="date" name="calendario" id="caja">
+                </fieldset>
+                <fieldset>
+                    <legend>Contacto Cliente</legend>
+                    Mail: <input type="email" name="mail" id="caja">
+                    <br>
+                    Password: <input type="password" name="password" id="caja">
+                </fieldset>
+                <fieldset>
+                    <legend>Combustión coche</legend>
+                    <input type="radio" name="coche" value="diesel" id="">diesel
+                    <br><input type="radio" name="coche" value="gasolina" id="">gasolina
+                    <br><input type="radio" name="coche" value="hibrido" id="">hibrido
+                    <br><input type="radio" name="coche" value="electrico" id="">electrico
+                    <fieldset>
+                        <legend>Tipo de vehículo</legend>
+                        Seleccine vehículo: <select name="transporte" id="">
+                            <option value="1">Coche</option>
+                            <option value="2">Camión</option>
+                            <option value="3">Autobus</option>
+                            <option value="4">Moto</option>
+                        </select>
+                    </fieldset>
+                </fieldset>
+                <input type="submit" value="Registrar Cliente">
+                <input type="reset" value="Borrar Registro">
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <img class="vengadores" src="logos/logo.jpg" alt="">
 </body>
 </html>
